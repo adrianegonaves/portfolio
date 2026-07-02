@@ -1,0 +1,15 @@
+{
+  "Home": {
+    "badge": "Disponível para novos projetos",
+    "title": "Criando experiências web incríveis",
+    "description": "Sou Adriane, desenvolvedora Front-end..."
+  },
+    "SiteMenu": {
+    "about": "Sobre",
+    "projects": "Projetos",
+    "experience": "Experiência",
+    "contact": "Contato",
+    "downloadCv": "Baixar CV"
+  }
+}
+

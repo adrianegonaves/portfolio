@@ -1,0 +1,68 @@
+
+/* ==========================================================================
+   Light Theme
+   ========================================================================== */
+
+:root {
+  --text-primary: #0f1724;
+  --text-secondary: #1e293b;
+  --text-muted: #2563eb;
+  --text-inverse: #10306b;
+
+  --background: #f7faff;
+  --foreground: #0f1724;
+
+  --card: #ffffff;
+  --card-foreground: #0f1724;
+
+  --primary: #2563eb;
+  --primary-foreground: #ffffff;
+
+  --secondary: #eff6ff;
+  --secondary-foreground: #1e293b;
+
+  --muted: #f1f5f9;
+  --muted-foreground: #64748b;
+
+  --border: #00000014;
+  --input: #ffffff;
+
+  --sidebar: #f1f5f9;
+  
+  --success: #10b981;
+  --warning: #f97316;
+}
+
+/* ==========================================================================
+   Dark Theme
+   ========================================================================== */
+
+.dark {
+  --text-primary: #a0a4b8;
+  --text-secondary: #e8eaf0;
+  --text-muted: #6c63ff;
+  --text-inverse: #ffffff;
+
+  --background: #0d0d17;
+  --foreground: #e8eaf0;
+
+  --card: #161925;
+  --card-foreground: #e8eaf0;
+
+  --primary: #6c63ff;
+  --primary-foreground: #ffffff;
+
+  --secondary: #1c1f2e;
+  --secondary-foreground: #a0a4b8;
+
+  --muted: #1a1d2b;
+  --muted-foreground: #6b6f85;
+
+  --border: #2a2d3a;
+  --input: #1c1f2e;
+
+  --sidebar: #0c0e18;
+
+  --success: #22c55e;
+  --warning: #f59e0b;
+}

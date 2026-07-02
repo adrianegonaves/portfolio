@@ -1,0 +1,14 @@
+{
+  "Home": {
+    "badge": "Available for work",
+    "title": "Crafting beautiful web experiences",
+    "description": "I'm Adriane, a Front-end developer..."
+  },
+    "SiteMenu": {
+    "about": "About",
+    "projects": "Projects",
+    "experience": "Experience",
+    "contact": "Contact",
+    "downloadCv": "Download CV"
+  }
+}
