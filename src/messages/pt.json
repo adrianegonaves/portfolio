@@ -2,9 +2,25 @@
   "Home": {
     "badge": "Disponível para novos projetos",
     "title": "Criando experiências web incríveis",
-    "description": "Sou Adriane, desenvolvedora Front-end..."
+    "highlight": "experiências",
+    "description": "Sou Desenvolvedora Front-End com cerca de 2 anos de experiência criando aplicações web e mobile com React, React Native, TypeScript e JavaScript. Atualmente curso Engenharia Informática em Portugal e busco desenvolver interfaces modernas, acessíveis e focadas na melhor experiência do usuário.",
+    "viewProjects": "Ver Projetos",
+    "contact": "Entrar em contato",
+
+    "experienceValue": "2",
+    "experienceLabel": "Anos de experiência",
+
+    "projectsValue": "20+",
+    "projectsLabel": "Projetos entregues",
+
+    "availability": "Aberta a oportunidades",
+
+    "stackTitle": "Stack atual",
+    "stackPrimary": "React",
+    "stackSecondary": "+ TypeScript"
   },
-    "SiteMenu": {
+
+  "SiteMenu": {
     "about": "Sobre",
     "projects": "Projetos",
     "experience": "Experiência",
@@ -12,4 +28,3 @@
     "downloadCv": "Baixar CV"
   }
 }
-

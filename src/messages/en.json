@@ -1,10 +1,26 @@
 {
   "Home": {
-    "badge": "Available for work",
-    "title": "Crafting beautiful web experiences",
-    "description": "I'm Adriane, a Front-end developer..."
+    "badge": "Available for new opportunities",
+    "title": "Crafting exceptional web experiences",
+    "highlight": "exceptional",
+   "description": "I'm a Front-End Developer with around 2 years of experience building web and mobile applications using React, React Native, TypeScript, and JavaScript. I'm currently pursuing a degree in Computer Engineering in Portugal, focused on creating modern, accessible, and user-centered interfaces.",
+    "viewProjects": "View Projects",
+    "contact": "Contact Me",
+
+    "experienceValue": "2",
+    "experienceLabel": "Years of Experience",
+
+    "projectsValue": "20+",
+    "projectsLabel": "Projects Delivered",
+
+    "availability": "Open to opportunities",
+
+    "stackTitle": "Current Stack",
+    "stackPrimary": "React",
+    "stackSecondary": "+ TypeScript"
   },
-    "SiteMenu": {
+
+  "SiteMenu": {
     "about": "About",
     "projects": "Projects",
     "experience": "Experience",
