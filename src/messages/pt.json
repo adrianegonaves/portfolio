@@ -6,25 +6,111 @@
     "description": "Sou Desenvolvedora Front-End com cerca de 2 anos de experiência criando aplicações web e mobile com React, React Native, TypeScript e JavaScript. Atualmente curso Engenharia Informática em Portugal e busco desenvolver interfaces modernas, acessíveis e focadas na melhor experiência do usuário.",
     "viewProjects": "Ver Projetos",
     "contact": "Entrar em contato",
-
     "experienceValue": "2",
     "experienceLabel": "Anos de experiência",
-
     "projectsValue": "20+",
     "projectsLabel": "Projetos entregues",
-
     "availability": "Aberta a oportunidades",
-
     "stackTitle": "Stack atual",
     "stackPrimary": "React",
     "stackSecondary": "+ TypeScript"
   },
-
   "SiteMenu": {
     "about": "Sobre",
     "projects": "Projetos",
     "experience": "Experiência",
     "contact": "Contato",
     "downloadCv": "Baixar CV"
+  },
+  "About": {
+    "subtitle": "Sobre",
+    "title": "Desenvolvedora Júnior focada em ótimas UIs",
+    "description": "Sou Desenvolvedora Front-End apaixonada por criar interfaces limpas, acessíveis e de alta performance. Atualmente a cursar Engenharia Informática em Portugal.",
+    "stats": {
+      "experienceValue": "2+",
+      "experienceLabel": "Anos de Experiência",
+      "projectsValue": "20+",
+      "projectsLabel": "Projetos Concluídos",
+      "degreeValue": "Lic.",
+      "degreeLabel": "Engenharia Informática",
+      "locationValue": "Portugal",
+      "locationLabel": "Residência"
+    },
+    "skills": {
+      "solid": "Competências Principais",
+      "studying": "Em Aprendizagem",
+      "learningBadge": "Estudando"
+    },
+    "studyCard": {
+      "title": "Atualmente a estudar",
+      "description": "A aprofundar os meus conhecimentos em back-end com Node.js, explorando GraphQL e práticas de testes automatizados para me tornar uma desenvolvedora mais completa."
+    }
+  },
+  "Projects": {
+    "subtitle": "Projetos",
+    "title": "Projetos em Destaque",
+    "description": "Uma seleção de aplicações recentes que desenvolvi, focando em performance, experiência do usuário e código limpo.",
+    "viewMore": "Ver todos os projetos",
+    "project1": {
+      "title": "E-commerce de Alta Performance",
+      "description": "Uma plataforma de vendas completa desenvolvida com Next.js 14, integrada com Stripe e otimizada para SEO."
+    },
+    "project2": {
+      "title": "Dashboard de Finanças Pessoais",
+      "description": "Aplicativo mobile para controle de gastos com gráficos interativos, relatórios mensais e sincronização em nuvem."
+    }
+  },
+  "Experience": {
+    "subtitle": "EXPERIÊNCIA",
+    "title": "Histórico Profissional",
+    "description": "2 anos evoluindo de uma entusiasta em programação para uma desenvolvedora front-end confiante com foco em React e TypeScript.",
+    "currentRoleBadge": "Cargo Atual",
+    "item1": {
+      "role": "Desenvolvedora Front-End",
+      "company": "Pixel Studio Agency",
+      "type": "Tempo Integral",
+      "period": "Mar 2023 - Presente",
+      "description": "Criação de interfaces web e ferramentas internas utilizando React e TypeScript. Contribuição para a biblioteca de componentes e documentação do Design System."
+    },
+    "item2": {
+      "role": "Desenvolvedora Front-End Júnior",
+      "company": "DevCraft Solutions",
+      "type": "Tempo Integral",
+      "period": "Jan 2022 - Fev 2023",
+      "description": "Início de carreira desenvolvendo landing pages responsivas e SPAs com React. Aprendizado prático de desenvolvimento baseado em componentes, controle de versão e metodologias ágeis."
+    },
+    "item3": {
+      "role": "Estagiária Front-End",
+      "company": "StartupHub",
+      "type": "Estágio",
+      "period": "Jun 2021 - Dez 2021",
+      "description": "Desenvolvimento de componentes de UI, correção de bugs e manutenção de sites institucionais. Onde tudo começou."
+    }
+  },
+  "Contact": {
+    "subtitle": "Contato",
+    "title": "Vamos construir algo juntos",
+    "description": "Estou aberta a oportunidades profissionais de nível júnior, projetos freelance e colaborações. Vamos conversar!",
+    "email": "Email",
+    "location": "Localização",
+    "e-mail": "adrianegonaves@gmail.com",
+    "country": "Portugal"
+  },
+  "FieldComponent": {
+    "firstName": "Nome",
+    "firstNamePlaceholder": "Adriane",
+    "lastName": "Sobrenome",
+    "lastNamePlaceholder": "Silva",
+    "emailAddress": "E-mail",
+    "emailAddressPlaceholder": "adriane@exemplo.com",
+    "subject": "Assunto",
+    "subjectPlaceholder": "Proposta de projeto / Oportunidade",
+    "message": "Mensagem",
+    "messagePlaceholder": "Conte-me um pouco sobre a sua ideia ou projeto...",
+    "sendMessage": "Enviar Mensagem",
+    "sending": "Enviando...",
+    "successTitle": "Mensagem Enviada!",
+    "successMessage": "Obrigado pelo contato. Responderei o mais breve possível.",
+    "sendAnother": "Enviar outra mensagem"
   }
 }

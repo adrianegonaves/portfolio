@@ -3,28 +3,114 @@
     "badge": "Available for new opportunities",
     "title": "Crafting exceptional web experiences",
     "highlight": "exceptional",
-   "description": "I'm a Front-End Developer with around 2 years of experience building web and mobile applications using React, React Native, TypeScript, and JavaScript. I'm currently pursuing a degree in Computer Engineering in Portugal, focused on creating modern, accessible, and user-centered interfaces.",
+    "description": "I'm a Front-End Developer with around 2 years of experience building web and mobile applications using React, React Native, TypeScript, and JavaScript. I'm currently pursuing a degree in Computer Engineering in Portugal, focused on creating modern, accessible, and user-centered interfaces.",
     "viewProjects": "View Projects",
     "contact": "Contact Me",
-
     "experienceValue": "2",
     "experienceLabel": "Years of Experience",
-
     "projectsValue": "20+",
     "projectsLabel": "Projects Delivered",
-
     "availability": "Open to opportunities",
-
     "stackTitle": "Current Stack",
     "stackPrimary": "React",
     "stackSecondary": "+ TypeScript"
   },
-
   "SiteMenu": {
     "about": "About",
     "projects": "Projects",
     "experience": "Experience",
     "contact": "Contact",
     "downloadCv": "Download CV"
+  },
+  "About": {
+    "subtitle": "About Me",
+    "title": "Junior dev with a hunger for great UIs",
+    "description": "I'm a Front-End Developer passionate about building clean, accessible, and high-performance interfaces. Currently pursuing Computer Engineering in Portugal.",
+    "stats": {
+      "experienceValue": "2+",
+      "experienceLabel": "Years of Experience",
+      "projectsValue": "20+",
+      "projectsLabel": "Projects Completed",
+      "degreeValue": "BSc",
+      "degreeLabel": "Computer Engineering",
+      "locationValue": "Portugal",
+      "locationLabel": "Based in"
+    },
+    "skills": {
+      "solid": "Solid Skills",
+      "studying": "Currently Studying",
+      "learningBadge": "Learning"
+    },
+    "studyCard": {
+      "title": "Currently Studying",
+      "description": "Deepening my back-end knowledge with Node.js, exploring GraphQL and automated testing practices to become a more well-rounded developer."
+    }
+  },
+  "Projects": {
+    "subtitle": "Projects",
+    "title": "Featured Work",
+    "description": "A selection of recent applications I built, focusing on performance, user experience, and clean code.",
+    "viewMore": "View all projects",
+    "project1": {
+      "title": "High-Performance E-commerce",
+      "description": "A full-featured sales platform built with Next.js 14, integrated with Stripe, and optimized for SEO."
+    },
+    "project2": {
+      "title": "Personal Finance Dashboard",
+      "description": "A mobile app for expense tracking featuring interactive charts, monthly reports, and cloud sync."
+    }
+  },
+  "Experience": {
+    "subtitle": "Experience",
+    "title": "Work History",
+    "description": "2 years growing from an enthusiastic learner to a confident front-end developer focused on React and TypeScript.",
+    "currentRoleBadge": "Current Role",
+    "item1": {
+      "role": "Front-End Developer",
+      "company": "Pixel Studio Agency",
+      "type": "Full-time",
+      "period": "Mar 2023 - Present",
+      "description": "Building client-facing interfaces and internal tools with React and TypeScript. Contributing to component library development and design system documentation."
+    },
+    "item2": {
+      "role": "Junior Front-End Developer",
+      "company": "DevCraft Solutions",
+      "type": "Full-time",
+      "period": "Jan 2022 - Feb 2023",
+      "description": "Started career building responsive landing pages and React SPAs. Learned the fundamentals of component-driven development, version control, and agile workflows."
+    },
+    "item3": {
+      "role": "Front-End Intern",
+      "company": "StartupHub",
+      "type": "Internship",
+      "period": "Jun 2021 - Dec 2021",
+      "description": "Built UI components, fixed bugs, and maintained marketing websites. Where it all started."
+    }
+  },
+  "Contact": {
+    "subtitle": "Contact",
+    "title": "Let's build something together",
+    "description": "I'm open to junior and entry-level opportunities, freelance projects, and collaborations. Let's talk!",
+    "email": "Email",
+    "location": "Location",
+    "e-mail": "adrianegonaves@gmail.com",
+    "country": "Portugal"
+  },
+  "FieldComponent": {
+    "firstName": "First Name",
+    "firstNamePlaceholder": "Adriane",
+    "lastName": "Last Name",
+    "lastNamePlaceholder": "Silva",
+    "emailAddress": "Email Address",
+    "emailAddressPlaceholder": "adriane@example.com",
+    "subject": "Subject",
+    "subjectPlaceholder": "Project proposal / Job opportunity",
+    "message": "Message",
+    "messagePlaceholder": "Tell me a bit about your idea or project...",
+    "sendMessage": "Send Message",
+    "sending": "Sending...",
+    "successTitle": "Message Sent!",
+    "successMessage": "Thank you for reaching out. I will get back to you as soon as possible.",
+    "sendAnother": "Send another message"
   }
 }
