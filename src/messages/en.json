@@ -1,116 +1,161 @@
 {
+  "Metadata": {
+    "title": "Adriane Almeida Gonçalves — Full-Stack Developer",
+    "description": "Full-stack portfolio of Adriane Almeida Gonçalves: React, Next.js, and Node.js. Web, mobile, and REST APIs. Lisbon, Portugal."
+  },
   "Home": {
-    "badge": "Available for new opportunities",
-    "title": "Crafting exceptional web experiences",
-    "highlight": "exceptional",
-    "description": "I'm a Front-End Developer with around 2 years of experience building web and mobile applications using React, React Native, TypeScript, and JavaScript. I'm currently pursuing a degree in Computer Engineering in Portugal, focused on creating modern, accessible, and user-centered interfaces.",
+    "hiIm": "Hi,",
+    "hiImEmphasis": "I'm",
+    "nameFirst": "Adriane",
+    "nameLast": "Gonçalves",
+    "roleTitle": "Software Engineer & Full-Stack Developer",
+    "heroBio": "I build digital products that solve real problems. From idea to deployment, I use React, Node.js, and TypeScript to turn complex challenges into simple, well-crafted solutions.",
+    "viewMyWork": "View My Work",
+    "downloadCv": "Download CV",
+    "heroImageAlt": "Illustration of Adriane working on a laptop in a beanbag chair beside a bookshelf",
+    "badge": "Full-Stack · React & Node.js",
+    "title": "Full-Stack Developer",
+    "description": "Software Engineer with 2+ years shipping web and mobile products (React, TypeScript, React Native) and a growing focus on Node.js backends — REST APIs, integrations, and server-side logic in the JavaScript ecosystem.",
     "viewProjects": "View Projects",
     "contact": "Contact Me",
     "experienceValue": "2",
     "experienceLabel": "Years of Experience",
-    "projectsValue": "20+",
-    "projectsLabel": "Projects Delivered",
+    "projectsValue": "4",
+    "projectsLabel": "Featured Projects",
     "availability": "Open to opportunities",
     "stackTitle": "Current Stack",
-    "stackPrimary": "React",
-    "stackSecondary": "+ TypeScript"
+    "stackPrimary": "Node.js",
+    "stackSecondary": "+ React"
   },
   "SiteMenu": {
     "about": "About",
     "projects": "Projects",
     "experience": "Experience",
     "contact": "Contact",
-    "downloadCv": "Download CV"
+    "linkedIn": "LinkedIn",
+    "letsTalk": "Let's Talk",
+    "mainNav": "Main navigation",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
   },
   "About": {
     "subtitle": "About Me",
-    "title": "Junior dev with a hunger for great UIs",
-    "description": "I'm a Front-End Developer passionate about building clean, accessible, and high-performance interfaces. Currently pursuing Computer Engineering in Portugal.",
+    "title": "Full-Stack Developer · React & Node.js",
+    "description": "Software Engineer with a strong front-end foundation (React, TypeScript, Next.js, React Native) and an active move into full-stack with Node.js: consuming and designing REST APIs, server-side logic, and data validation. Experience on digital commerce platforms, mobile apps, and production back-end integrations. Redux, Tailwind, Radix UI, Git, and Azure DevOps in Agile teams. Full Stack Web Bootcamp (Labenu, 2023).",
     "stats": {
       "experienceValue": "2+",
       "experienceLabel": "Years of Experience",
-      "projectsValue": "20+",
-      "projectsLabel": "Projects Completed",
+      "projectsValue": "4",
+      "projectsLabel": "Featured Projects",
       "degreeValue": "BSc",
-      "degreeLabel": "Computer Engineering",
-      "locationValue": "Portugal",
+      "degreeLabel": "Computer Eng. (2027)",
+      "locationValue": "Lisbon",
       "locationLabel": "Based in"
     },
     "skills": {
-      "solid": "Solid Skills",
-      "studying": "Currently Studying",
+      "solid": "Core Skills",
+      "studying": "Deepening",
       "learningBadge": "Learning"
     },
     "studyCard": {
-      "title": "Currently Studying",
-      "description": "Deepening my back-end knowledge with Node.js, exploring GraphQL and automated testing practices to become a more well-rounded developer."
+      "title": "Continuous learning",
+      "description": "Deepening back-end skills with Node.js (APIs, persistence, and best practices). BSc in Computer Engineering at IPS (2027), Labenu Full Stack Bootcamp (2023), and Front-End Immersion with AI (Alura, 2026)."
     }
   },
   "Projects": {
     "subtitle": "Projects",
     "title": "Featured Work",
-    "description": "A selection of recent applications I built, focusing on performance, user experience, and clean code.",
-    "viewMore": "View all projects",
+    "description": "From full-stack web (Next.js + Node.js) to mobile and AI — projects centered on APIs, TypeScript, and end-to-end delivery.",
+    "viewMore": "View GitHub",
+    "liveDemo": "Live demo",
+    "github": "GitHub",
+    "project4": {
+      "title": "Full-stack portfolio",
+      "description": "Personal site built with Next.js 16, i18n, dark/light theme, and a contact form with Zod validation and email delivery via Node.js Server Actions and Resend."
+    },
     "project1": {
-      "title": "High-Performance E-commerce",
-      "description": "A full-featured sales platform built with Next.js 14, integrated with Stripe, and optimized for SEO."
+      "title": "SerPlena — Women's Health Diary",
+      "description": "React Native mobile app to track, record, and visualize daily physical and emotional well-being metrics, built at Teamsoft Technology and Systems."
     },
     "project2": {
-      "title": "Personal Finance Dashboard",
-      "description": "A mobile app for expense tracking featuring interactive charts, monthly reports, and cloud sync."
+      "title": "Facial Expression Recognition (CNN)",
+      "description": "Computer Vision pipeline using the FER-2013 dataset, image preprocessing, and a Convolutional Neural Network in Python (TensorFlow/Keras) to classify emotions in facial images."
+    },
+    "project3": {
+      "title": "Virtual Showroom — Industrial Inventory",
+      "description": "Mobile features for industrial inventory digitization, including an interactive virtual showroom with multi-platform deployment (Android and iOS), during an undergraduate research fellowship at IPS."
     }
   },
   "Experience": {
     "subtitle": "Experience",
     "title": "Work History",
-    "description": "2 years growing from an enthusiastic learner to a confident front-end developer focused on React and TypeScript.",
+    "description": "From UI components to production features with API integration — expanding into full-stack delivery with Node.js.",
     "currentRoleBadge": "Current Role",
     "item1": {
-      "role": "Front-End Developer",
-      "company": "Pixel Studio Agency",
-      "type": "Full-time",
-      "period": "Mar 2023 - Present",
-      "description": "Building client-facing interfaces and internal tools with React and TypeScript. Contributing to component library development and design system documentation."
+      "role": "Undergraduate Research Fellow",
+      "company": "Polytechnic University of Santarém",
+      "type": "Research",
+      "period": "Apr 2025 — Sep 2025 · Santarém, Portugal",
+      "description": "Collaborated on mobile features for industrial inventory digitization, delivering an interactive virtual showroom with Android and iOS deployment. Designed Figma layouts and prototypes focused on usability and UX."
     },
     "item2": {
       "role": "Junior Front-End Developer",
-      "company": "DevCraft Solutions",
-      "type": "Full-time",
-      "period": "Jan 2022 - Feb 2023",
-      "description": "Started career building responsive landing pages and React SPAs. Learned the fundamentals of component-driven development, version control, and agile workflows."
+      "company": "Teamsoft Technology and Systems",
+      "type": "Remote · Full-time",
+      "period": "Jul 2023 — Apr 2025",
+      "description": "Engineered core features for an audiovisual asset and warehouse management platform in a digital commerce ecosystem, integrated with REST APIs and back-end business rules. Built a reporting module with dynamic filters. Developed SerPlena in React Native. Maintained legacy Angular 7. Agile, Git, and Azure DevOps."
     },
     "item3": {
-      "role": "Front-End Intern",
-      "company": "StartupHub",
+      "role": "Front-End Development Intern",
+      "company": "KMM by nstech",
       "type": "Internship",
-      "period": "Jun 2021 - Dec 2021",
-      "description": "Built UI components, fixed bugs, and maintained marketing websites. Where it all started."
+      "period": "Sep 2022 — Dec 2022 · Brazil",
+      "description": "Supported the front-end team building UI components following modern JavaScript, HTML, and CSS best practices. Participated in Agile/Scrum ceremonies and release cycles."
     }
   },
   "Contact": {
     "subtitle": "Contact",
     "title": "Let's build something together",
-    "description": "I'm open to junior and entry-level opportunities, freelance projects, and collaborations. Let's talk!",
+    "headlineLead": "Let's build something meaningful",
+    "headlineAccent": "together.",
+    "formTitle": "Send a message",
+    "copyright": "All rights reserved.",
+    "description": "I'm open to full-stack roles (Node.js + React), front-end, freelance projects, and collaborations.",
     "email": "Email",
     "location": "Location",
     "e-mail": "adrianegonaves@gmail.com",
-    "country": "Portugal"
+    "country": "Lisbon, Portugal"
   },
   "FieldComponent": {
     "firstName": "First Name",
-    "firstNamePlaceholder": "Adriane",
+    "firstNamePlaceholder": "Your name",
     "lastName": "Last Name",
-    "lastNamePlaceholder": "Silva",
+    "lastNamePlaceholder": "Your last name",
     "emailAddress": "Email Address",
-    "emailAddressPlaceholder": "adriane@example.com",
+    "emailAddressPlaceholder": "your@example.com",
     "subject": "Subject",
-    "subjectPlaceholder": "Project proposal / Job opportunity",
+    "subjectPlaceholder": "Job opportunity / Project",
     "message": "Message",
-    "messagePlaceholder": "Tell me a bit about your idea or project...",
+    "messagePlaceholder": "Tell me about your idea or opportunity...",
     "sendMessage": "Send Message",
     "sending": "Sending...",
     "successTitle": "Message Sent!",
     "successMessage": "Thank you for reaching out. I will get back to you as soon as possible.",
-    "sendAnother": "Send another message"
+    "sendAnother": "Send another message",
+    "errors": {
+      "generic": "Please check the fields and try again.",
+      "send": "Could not send your message. Please try again later.",
+      "config": "Email delivery is not configured on the server.",
+      "FIRST_NAME_REQUIRED": "Please enter your first name.",
+      "FIRST_NAME_TOO_LONG": "First name is too long.",
+      "LAST_NAME_TOO_LONG": "Last name is too long.",
+      "EMAIL_REQUIRED": "Please enter your email.",
+      "EMAIL_INVALID": "Please enter a valid email address.",
+      "EMAIL_TOO_LONG": "Email is too long.",
+      "SUBJECT_REQUIRED": "Please enter a subject.",
+      "SUBJECT_TOO_LONG": "Subject is too long.",
+      "MESSAGE_TOO_SHORT": "Message must be at least 10 characters.",
+      "MESSAGE_TOO_LONG": "Message is too long."
+    }
   }
 }

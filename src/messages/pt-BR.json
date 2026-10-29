@@ -1,0 +1,161 @@
+{
+  "Metadata": {
+    "title": "Adriane Almeida Gonçalves — Full-Stack Developer",
+    "description": "Portfólio full-stack de Adriane Almeida Gonçalves: React, Next.js e Node.js. Web, mobile e APIs REST. Lisboa, Portugal."
+  },
+  "Home": {
+    "hiIm": "Olá,",
+    "hiImEmphasis": "eu sou",
+    "nameFirst": "Adriane",
+    "nameLast": "Gonçalves",
+    "roleTitle": "Software Engineer & Full-Stack Developer",
+    "heroBio": "Construo produtos digitais que resolvem problemas reais — da ideia ao deploy, com React, Node.js e TypeScript. Transformo desafios complexos em soluções simples e bem feitas.",
+    "viewMyWork": "Ver meu trabalho",
+    "downloadCv": "Baixar currículo",
+    "heroImageAlt": "Ilustração de Adriane trabalhando no notebook, sentada em um puff ao lado de uma estante de livros",
+    "badge": "Full-Stack · React & Node.js",
+    "title": "Full-Stack Developer",
+    "description": "Software Engineer com mais de 2 anos em produtos web e mobile (React, TypeScript, React Native) e foco crescente em back-end com Node.js — APIs REST, integrações e Server Actions no ecossistema JavaScript.",
+    "viewProjects": "Ver projetos",
+    "contact": "Entrar em contato",
+    "experienceValue": "2",
+    "experienceLabel": "Anos de experiência",
+    "projectsValue": "4",
+    "projectsLabel": "Projetos em destaque",
+    "availability": "Aberta a oportunidades",
+    "stackTitle": "Stack atual",
+    "stackPrimary": "Node.js",
+    "stackSecondary": "+ React"
+  },
+  "SiteMenu": {
+    "about": "Sobre",
+    "projects": "Projetos",
+    "experience": "Experiência",
+    "contact": "Contato",
+    "linkedIn": "LinkedIn",
+    "letsTalk": "Vamos conversar",
+    "mainNav": "Navegação principal",
+    "openMenu": "Abrir menu",
+    "closeMenu": "Fechar menu"
+  },
+  "About": {
+    "subtitle": "Sobre",
+    "title": "Full-Stack Developer · React & Node.js",
+    "description": "Software Engineer com base sólida em front-end (React, TypeScript, Next.js, React Native) e transição ativa para full-stack com Node.js: consumo e design de APIs REST, lógica de servidor e validação de dados. Experiência em plataformas de comércio digital, apps mobile e integração com back-ends em produção. Redux, Tailwind, Radix UI, Git e Azure DevOps em times Agile. Bootcamp Full Stack Web (Labenu, 2023).",
+    "stats": {
+      "experienceValue": "2+",
+      "experienceLabel": "Anos de experiência",
+      "projectsValue": "4",
+      "projectsLabel": "Projetos em destaque",
+      "degreeValue": "Grad.",
+      "degreeLabel": "Eng. da Computação (2027)",
+      "locationValue": "Lisboa",
+      "locationLabel": "Localização"
+    },
+    "skills": {
+      "solid": "Competências principais",
+      "studying": "Em aprofundamento",
+      "learningBadge": "Estudando"
+    },
+    "studyCard": {
+      "title": "Formação contínua",
+      "description": "Aprofundando back-end com Node.js (APIs, persistência e boas práticas). Graduação em Eng. da Computação no IPS (2027), Bootcamp Full Stack Labenu (2023) e Imersão Front-End com IA (Alura, 2026)."
+    }
+  },
+  "Projects": {
+    "subtitle": "Projetos",
+    "title": "Projetos em destaque",
+    "description": "Do full-stack web (Next.js + Node.js) a mobile e IA — projetos alinhados com APIs, TypeScript e entrega end-to-end.",
+    "viewMore": "Ver GitHub",
+    "liveDemo": "Demo ao vivo",
+    "github": "GitHub",
+    "project4": {
+      "title": "Portfólio full-stack",
+      "description": "Site pessoal com Next.js 16, internacionalização, tema claro/escuro e formulário de contato com validação Zod e envio via Server Actions (Node.js) e Resend."
+    },
+    "project1": {
+      "title": "SerPlena — Diário de saúde feminina",
+      "description": "Aplicativo mobile em React Native para registrar e visualizar métricas diárias de bem-estar físico e emocional, desenvolvido na Teamsoft Technology and Systems."
+    },
+    "project2": {
+      "title": "Reconhecimento de expressões faciais (CNN)",
+      "description": "Pipeline de visão computacional com dataset FER-2013, pré-processamento de imagens e rede convolucional em Python (TensorFlow/Keras) para classificação de emoções."
+    },
+    "project3": {
+      "title": "Showroom virtual — Inventário industrial",
+      "description": "Funcionalidades para aplicativo mobile de digitalização de inventário industrial, incluindo showroom virtual interativo com deploy multiplataforma (Android e iOS), no âmbito de bolsa de pesquisa no IPS."
+    }
+  },
+  "Experience": {
+    "subtitle": "Experiência",
+    "title": "Histórico profissional",
+    "description": "De UI e componentes a features em produção com integração de APIs — expandindo entrega full-stack com Node.js.",
+    "currentRoleBadge": "Cargo atual",
+    "item1": {
+      "role": "Bolsista de Iniciação Científica",
+      "company": "Instituto Politécnico de Santarém",
+      "type": "Pesquisa",
+      "period": "Abr 2025 — Set 2025 · Santarém",
+      "description": "Desenvolvimento de funcionalidades para aplicativo mobile de digitalização de inventário industrial, com showroom virtual interativo e deploy em Android e iOS. Protótipos e layouts no Figma focados em usabilidade e UX."
+    },
+    "item2": {
+      "role": "Front-End Developer Junior",
+      "company": "Teamsoft Technology and Systems",
+      "type": "Remoto · Tempo integral",
+      "period": "Jul 2023 — Abr 2025",
+      "description": "Features e fluxos em uma plataforma de gestão de ativos audiovisuais e armazém (ecossistema de comércio digital), integrada com APIs REST e regras de negócio no back-end. Módulo de relatórios com filtros dinâmicos. App SerPlena em React Native. Legacy Angular 7. Agile, Git e Azure DevOps."
+    },
+    "item3": {
+      "role": "Estagiária de Front-End",
+      "company": "KMM by nstech",
+      "type": "Estágio",
+      "period": "Set 2022 — Dez 2022 · Brasil",
+      "description": "Apoio ao time de front-end na criação de componentes UI com boas práticas de JavaScript, HTML e CSS. Participação em cerimônias Agile/Scrum e ciclos de release alinhados ao produto."
+    }
+  },
+  "Contact": {
+    "subtitle": "Contato",
+    "title": "Vamos construir algo juntos",
+    "headlineLead": "Vamos construir algo significativo",
+    "headlineAccent": "juntos.",
+    "formTitle": "Enviar mensagem",
+    "copyright": "Todos os direitos reservados.",
+    "description": "Estou aberta a oportunidades full-stack (Node.js + React), front-end, freelance e colaborações.",
+    "email": "E-mail",
+    "location": "Localização",
+    "e-mail": "adrianegonaves@gmail.com",
+    "country": "Lisboa, Portugal"
+  },
+  "FieldComponent": {
+    "firstName": "Nome",
+    "firstNamePlaceholder": "Seu nome",
+    "lastName": "Sobrenome",
+    "lastNamePlaceholder": "Seu sobrenome",
+    "emailAddress": "E-mail",
+    "emailAddressPlaceholder": "seu@email.com",
+    "subject": "Assunto",
+    "subjectPlaceholder": "Oportunidade / Projeto",
+    "message": "Mensagem",
+    "messagePlaceholder": "Conte sobre sua ideia ou oportunidade...",
+    "sendMessage": "Enviar mensagem",
+    "sending": "Enviando...",
+    "successTitle": "Mensagem enviada!",
+    "successMessage": "Obrigada pelo contato. Responderei o mais breve possível.",
+    "sendAnother": "Enviar outra mensagem",
+    "errors": {
+      "generic": "Verifique os campos e tente novamente.",
+      "send": "Não foi possível enviar a mensagem. Tente novamente mais tarde.",
+      "config": "O envio de e-mail não está configurado no servidor.",
+      "FIRST_NAME_REQUIRED": "Informe seu nome.",
+      "FIRST_NAME_TOO_LONG": "O nome é muito longo.",
+      "LAST_NAME_TOO_LONG": "O sobrenome é muito longo.",
+      "EMAIL_REQUIRED": "Informe seu e-mail.",
+      "EMAIL_INVALID": "Digite um e-mail válido.",
+      "EMAIL_TOO_LONG": "O e-mail é muito longo.",
+      "SUBJECT_REQUIRED": "Informe o assunto.",
+      "SUBJECT_TOO_LONG": "O assunto é muito longo.",
+      "MESSAGE_TOO_SHORT": "A mensagem deve ter pelo menos 10 caracteres.",
+      "MESSAGE_TOO_LONG": "A mensagem é muito longa."
+    }
+  }
+}
