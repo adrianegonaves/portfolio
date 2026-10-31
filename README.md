@@ -1,27 +1,59 @@
-# Personal Portfolio — Adriane Gonçalves
 
-Welcome to my portfolio repository! This project was built to showcase my web development skills, work history, featured projects, and to provide a direct way to get in touch with me.
+# Portfolio — Adriane Gonçalves
 
-:globe_with_meridians: **Live Demo:**
+Site pessoal **full-stack** em **Next.js 16**, **Node.js** (Server Actions), **React 19**, **Tailwind CSS 4**, **next-intl** (pt/en), **Zod** e **Resend**.
 
----
+## Desenvolvimento
 
-##  :sparkles: Features
+```bash
+cd portfolio
+yarn install
+yarn dev
+```
 
-- :earth_americas: **Internationalization (i18n):** Seamless language switching between English (EN) and Portuguese (PT) powered by `next-intl`.
-- :art: **Modern & Responsive UI:** Elegant user interface built with Tailwind CSS and accessible components from `shadcn/ui`.
-- :e-mail: **Functional Contact Form:** Direct email delivery to my inbox using **Next.js Server Actions** and the **Resend API**.
-- :first_quarter_moon: **Dark / Light Theme:** Theme switching for optimal visual comfort.
-- :zap: **High Performance & SEO:** Optimized for top Web Vitals scores using Next.js App Router.
+> Use **só Yarn** neste projeto (`yarn.lock`). Misturar `npm install` e `yarn` corrompe `node_modules` e causa erros como `Cannot find module '@swc/helpers'` ou `next-intl`.
 
----
+### Se `yarn dev` falhar
 
-## :wrench: Tech Stack
+```bash
+pkill -f "next dev"   # para servidores antigos
+rm -rf .next node_modules
+yarn install
+yarn dev
+```
 
-- **Framework:** [Next.js](https://nextjs.org/) (App Router, React Server Components & Server Actions)
-- **Language:** [TypeScript](https://www.typescriptlang.org/)
-- **Styling:** [Tailwind CSS](https://tailwindcss.com/) & [shadcn/ui](https://ui.shadcn.com/)
-- **Internationalization:** [next-intl](https://next-intl-docs.vercel.app/)
-- **Email Service:** [Resend](https://resend.com/)
-- **Icons:** [Lucide React](https://lucide.dev/)
+Idiomas: `/pt` (Portugal), `/pt-BR` (Brasil), `/en`. A raiz redireciona para `/pt`.
 
+Abra [http://localhost:3000/pt-BR](http://localhost:3000/pt-BR) para português do Brasil.
+
+## Variáveis de ambiente
+
+Copie `.env.example` para `.env.local` e preencha as chaves (Resend).
+
+## Estrutura (`src/`)
+
+| Pasta | Uso |
+|-------|-----|
+| `app/[locale]/` | Rotas, layout, Server Actions |
+| `components/sections/` | Hero, About, Projects, Experience, Contact |
+| `components/layout/` | Menu, tema, idioma, sublinhado de títulos |
+| `components/contact/` | Formulário e ilustração SVG |
+| `components/ui/` | shadcn |
+| `content/` | Dados estáticos (site, projetos, experiência, skills) |
+| `messages/` | Traduções `pt`, `pt-BR`, `en` |
+| `i18n/` | next-intl (routing, request) |
+| `lib/` | Utilitários e validações Zod |
+
+## Conteúdo e links
+
+- `src/content/site.ts` — contactos e projetos  
+- `src/content/experience.ts` — ordem das experiências  
+- `src/content/skills.ts` — competências na secção About  
+- Traduções: `src/messages/*.json`
+
+## Scripts
+
+- `yarn dev` — servidor de desenvolvimento
+- `yarn build` — build de produção
+- `yarn lint` — ESLint
+>>>>>>> 5311af3 (Refactor code structure for improved readability and maintainability)

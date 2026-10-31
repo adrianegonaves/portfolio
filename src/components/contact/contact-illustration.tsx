@@ -1,5 +1,5 @@
 /** Ilustração decorativa da secção contacto — line-art com cores do tema */
-export default function IlustracaoSVG() {
+export default function ContactIllustration() {
   const ink = "currentColor";
   const sw = 2.25;
 

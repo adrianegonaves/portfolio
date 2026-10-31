@@ -1,31 +1,18 @@
 {
   "Metadata": {
-    "title": "Adriane Almeida Gonçalves — Full-Stack Developer",
-    "description": "Portfólio full-stack de Adriane Almeida Gonçalves: React, Next.js e Node.js. Web, mobile e APIs REST. Lisboa, Portugal."
+    "title": "Adriane Almeida Gonçalves — Frontend & Full Stack Developer",
+    "description": "Portfólio de Adriane Almeida Gonçalves: React, React Native, TypeScript e APIs REST. Santarém, Portugal."
   },
   "Home": {
     "hiIm": "Olá,",
     "hiImEmphasis": "sou",
     "nameFirst": "Adriane",
     "nameLast": "Gonçalves",
-    "roleTitle": "Software Engineer & Full-Stack Developer",
-    "heroBio": "Construo produtos digitais que resolvem problemas reais — da ideia ao deploy, com React, Node.js e TypeScript. Transformo desafios complexos em soluções simples e bem desenhadas.",
+    "roleTitle": "Frontend Developer · Software Engineer · Full Stack Developer",
+    "heroBio": "Mais de 2 anos de experiência prática em frontend com React, React Native e TypeScript em projetos de clientes e de investigação universitária. Integro APIs REST, construo módulos reutilizáveis e trabalho em equipas Agile com Git e Azure DevOps.",
     "viewMyWork": "Ver o meu trabalho",
-    "downloadCv": "Descarregar CV",
-    "heroImageAlt": "Ilustração de Adriane a trabalhar no portátil, sentada num beanbag junto a uma estante de livros",
-    "badge": "Full-Stack · React & Node.js",
-    "title": "Full-Stack Developer",
-    "description": "Software Engineer com 2+ anos em produto web e mobile (React, TypeScript, React Native) e foco crescente em back-end com Node.js — APIs REST, integrações e Server Actions no ecossistema JavaScript.",
-    "viewProjects": "Ver Projetos",
-    "contact": "Entrar em contacto",
-    "experienceValue": "2",
-    "experienceLabel": "Anos de experiência",
-    "projectsValue": "4",
-    "projectsLabel": "Projetos em destaque",
-    "availability": "Aberta a oportunidades",
-    "stackTitle": "Stack atual",
-    "stackPrimary": "Node.js",
-    "stackSecondary": "+ React"
+    "linkedInCta": "Ver LinkedIn",
+    "heroImageAlt": "Ilustração de Adriane a trabalhar no portátil, sentada num beanbag junto a uma estante de livros"
   },
   "SiteMenu": {
     "about": "Sobre",
@@ -40,32 +27,28 @@
   },
   "About": {
     "subtitle": "Sobre",
-    "title": "Full-Stack Developer · React & Node.js",
-    "description": "Software Engineer com base sólida em front-end (React, TypeScript, Next.js, React Native) e transição ativa para full-stack com Node.js: consumo e desenho de APIs REST, lógica de servidor e validação de dados. Experiência em plataformas de comércio digital, apps mobile e integração com back-ends em produção. Redux, Tailwind, Radix UI, Git e Azure DevOps em equipas Agile. Bootcamp Full Stack Web (Labenu, 2023).",
-    "stats": {
-      "experienceValue": "2+",
-      "experienceLabel": "Anos de experiência",
-      "projectsValue": "4",
-      "projectsLabel": "Projetos em destaque",
-      "degreeValue": "Lic.",
-      "degreeLabel": "Eng. Informática (2027)",
-      "locationValue": "Lisboa",
-      "locationLabel": "Localização"
+    "headline": "Sobre mim",
+    "imageAlt": "Ilustração de um gato sentado, em estilo vetorial roxo",
+    "title": "Frontend Developer · Software Engineer · Full Stack Developer",
+    "intro": "Desenvolvedora com mais de 2 anos de experiência prática em frontend, com React, React Native e TypeScript, em projetos de clientes e de investigação universitária. Experiência na integração de APIs REST autenticadas, em módulos reutilizáveis e em equipas Agile com Git e Azure DevOps. Licenciatura em Engenharia Informática na Universidade Politécnica de Santarém (2027). Bootcamp Full Stack Web na Labenu (2023).",
+    "traits": {
+      "problemSolver": "Resolução de problemas",
+      "detailOriented": "Orientada ao detalhe",
+      "cleanCode": "Código limpo",
+      "alwaysLearning": "Aprendizagem contínua",
+      "teamPlayer": "Espírito de equipa",
+      "curiousMind": "Mente curiosa"
     },
     "skills": {
-      "solid": "Competências principais",
-      "studying": "Em aprofundamento",
-      "learningBadge": "A estudar"
-    },
-    "studyCard": {
-      "title": "Formação contínua",
-      "description": "A aprofundar back-end com Node.js (APIs, persistência e boas práticas). Licenciatura em Eng. Informática no IPS (2027), Bootcamp Full Stack Labenu (2023) e Imersão Front-End com IA (Alura, 2026)."
+      "solid": "Competências principais"
     }
   },
   "Projects": {
     "subtitle": "Projetos",
     "title": "Projetos em destaque",
-    "description": "Do full-stack web (Next.js + Node.js) a mobile e IA — projetos alinhados com APIs, TypeScript e entrega end-to-end.",
+    "titleLead": "Projetos",
+    "titleRest": "em destaque",
+    "description": "Projetos académicos e profissionais alinhados com o CV — mobile, visão computacional e este portfólio.",
     "viewMore": "Ver GitHub",
     "liveDemo": "Demo ao vivo",
     "github": "GitHub",
@@ -74,43 +57,43 @@
       "description": "Site pessoal com Next.js 16, internacionalização, tema escuro/claro e formulário de contacto com validação Zod e envio via Server Actions (Node.js) e Resend."
     },
     "project1": {
-      "title": "SerPlena — Diário de saúde feminina",
-      "description": "Aplicação mobile em React Native para registo e visualização de métricas diárias de bem-estar físico e emocional, desenvolvida na Teamsoft Technology and Systems."
+      "title": "SerPlena — Bem-estar feminino",
+      "description": "App de cliente em React Native para registo e acompanhamento diário do bem-estar físico e emocional, com gráficos das emoções mais registadas ao longo do tempo (Teamsoft)."
     },
     "project2": {
       "title": "Reconhecimento de expressões faciais (CNN)",
-      "description": "Pipeline de Computer Vision com dataset FER-2013, pré-processamento de imagens e rede convolucional em Python (TensorFlow/Keras) para classificação de emoções."
+      "description": "Projeto académico (IPS, 2026): pipeline de visão computacional com FER-2013, CNN em Python (TensorFlow/Keras) para 7 emoções — 62% de accuracy global; melhor classe happy (83% precision, F1 0,84)."
     },
     "project3": {
-      "title": "Showroom virtual — Inventário industrial",
-      "description": "Funcionalidades para aplicação mobile de digitalização de inventário industrial, incluindo ambiente de showroom virtual interativo com deploy multiplataforma (Android e iOS), no âmbito de bolsa de investigação no IPS."
+      "title": "Showroom virtual — Stock industrial",
+      "description": "Ecrãs em React Native para digitalização de stock industrial com showroom virtual (Android e iOS), protótipos em Figma e ligação entre design e código (bolsa UPS, 2025)."
     }
   },
   "Experience": {
     "subtitle": "Experiência",
     "title": "Histórico profissional",
-    "description": "De UI e componentes a features em produção com integração de APIs — a expandir entrega full-stack com Node.js.",
+    "description": "Experiência em React, React Native e TypeScript, com integração de APIs REST e entrega em equipas Agile.",
     "currentRoleBadge": "Cargo atual",
     "item1": {
-      "role": "Bolseira de Investigação de Licenciatura",
-      "company": "Instituto Politécnico de Santarém",
+      "role": "Bolseira de Iniciação à Investigação Científica",
+      "company": "Universidade Politécnica de Santarém",
       "type": "Investigação",
       "period": "Abr 2025 — Set 2025 · Santarém",
-      "description": "Desenvolvimento de funcionalidades para aplicação mobile de digitalização de inventário industrial, com showroom virtual interativo e deploy em Android e iOS. Protótipos e layouts em Figma orientados a usabilidade e UX."
+      "description": "Ecrãs em React Native numa app mobile multiplataforma de digitalização de stock industrial, com showroom virtual. Protótipos em Figma e implementação de ecrãs, assegurando a ligação entre design e código."
     },
     "item2": {
-      "role": "Front-End Developer Junior",
-      "company": "Teamsoft Technology and Systems",
-      "type": "Remoto · Tempo integral",
+      "role": "Frontend Developer Junior",
+      "company": "Teamsoft Tecnologia e Sistemas",
+      "type": "Tempo integral",
       "period": "Jul 2023 — Abr 2025",
-      "description": "Features e fluxos numa plataforma de gestão de ativos audiovisuais e armazém (ecossistema de comércio digital), integrada com APIs REST e regras de negócio no back-end. Módulo de relatórios com filtros dinâmicos. App SerPlena em React Native. Legacy Angular 7. Agile, Git e Azure DevOps."
+      "description": "Módulo de relatórios reutilizável em React/TypeScript (projeto MRO) com filtros dinâmicos e integração com APIs REST autenticadas. SerPlena em React Native. Novos ecrãs e correções num sistema de stock audiovisual estilo e-commerce. Manutenção legacy em Angular 7."
     },
     "item3": {
-      "role": "Estagiária de Front-End",
-      "company": "KMM by nstech",
+      "role": "Estagiária em Desenvolvimento Frontend",
+      "company": "KMM by NSTech",
       "type": "Estágio",
       "period": "Set 2022 — Dez 2022 · Brasil",
-      "description": "Apoio à equipa front-end na criação de componentes UI com boas práticas de JavaScript, HTML e CSS. Participação em cerimónias Agile/Scrum e ciclos de release alinhados ao produto."
+      "description": "Componentes frontend em JavaScript, HTML e CSS. Participação nas cerimónias Agile e nos ciclos de release da equipa."
     }
   },
   "Contact": {
@@ -120,7 +103,7 @@
     "headlineAccent": "juntos.",
     "formTitle": "Enviar mensagem",
     "copyright": "Todos os direitos reservados.",
-    "description": "Estou aberta a oportunidades full-stack (Node.js + React), front-end, freelance e colaborações.",
+    "description": "Aberta a oportunidades em desenvolvimento frontend, software ou full stack, freelance e colaborações.",
     "email": "E-mail",
     "location": "Localização",
     "e-mail": "adrianegonaves@gmail.com",
@@ -130,7 +113,7 @@
     "firstName": "Nome",
     "firstNamePlaceholder": "O seu nome",
     "lastName": "Apelido",
-    "lastNamePlaceholder": "Seu Apelido",
+    "lastNamePlaceholder": "O seu apelido",
     "emailAddress": "E-mail",
     "emailAddressPlaceholder": "seu@email.com",
     "subject": "Assunto",

@@ -1,31 +1,18 @@
 {
   "Metadata": {
-    "title": "Adriane Almeida Gonçalves — Full-Stack Developer",
-    "description": "Full-stack portfolio of Adriane Almeida Gonçalves: React, Next.js, and Node.js. Web, mobile, and REST APIs. Lisbon, Portugal."
+    "title": "Adriane Almeida Gonçalves — Frontend & Full Stack Developer",
+    "description": "Portfolio of Adriane Almeida Gonçalves: React, React Native, TypeScript, and REST APIs. Santarém, Portugal."
   },
   "Home": {
     "hiIm": "Hi,",
     "hiImEmphasis": "I'm",
     "nameFirst": "Adriane",
     "nameLast": "Gonçalves",
-    "roleTitle": "Software Engineer & Full-Stack Developer",
-    "heroBio": "I build digital products that solve real problems. From idea to deployment, I use React, Node.js, and TypeScript to turn complex challenges into simple, well-crafted solutions.",
+    "roleTitle": "Frontend Developer · Software Engineer · Full Stack Developer",
+    "heroBio": "Over 2 years of hands-on frontend experience with React, React Native, and TypeScript—on client projects and university research. I integrate authenticated REST APIs, build reusable modules, and work in Agile teams with Git and Azure DevOps.",
     "viewMyWork": "View My Work",
-    "downloadCv": "Download CV",
-    "heroImageAlt": "Illustration of Adriane working on a laptop in a beanbag chair beside a bookshelf",
-    "badge": "Full-Stack · React & Node.js",
-    "title": "Full-Stack Developer",
-    "description": "Software Engineer with 2+ years shipping web and mobile products (React, TypeScript, React Native) and a growing focus on Node.js backends — REST APIs, integrations, and server-side logic in the JavaScript ecosystem.",
-    "viewProjects": "View Projects",
-    "contact": "Contact Me",
-    "experienceValue": "2",
-    "experienceLabel": "Years of Experience",
-    "projectsValue": "4",
-    "projectsLabel": "Featured Projects",
-    "availability": "Open to opportunities",
-    "stackTitle": "Current Stack",
-    "stackPrimary": "Node.js",
-    "stackSecondary": "+ React"
+    "linkedInCta": "View LinkedIn",
+    "heroImageAlt": "Illustration of Adriane working on a laptop in a beanbag chair beside a bookshelf"
   },
   "SiteMenu": {
     "about": "About",
@@ -40,32 +27,28 @@
   },
   "About": {
     "subtitle": "About Me",
-    "title": "Full-Stack Developer · React & Node.js",
-    "description": "Software Engineer with a strong front-end foundation (React, TypeScript, Next.js, React Native) and an active move into full-stack with Node.js: consuming and designing REST APIs, server-side logic, and data validation. Experience on digital commerce platforms, mobile apps, and production back-end integrations. Redux, Tailwind, Radix UI, Git, and Azure DevOps in Agile teams. Full Stack Web Bootcamp (Labenu, 2023).",
-    "stats": {
-      "experienceValue": "2+",
-      "experienceLabel": "Years of Experience",
-      "projectsValue": "4",
-      "projectsLabel": "Featured Projects",
-      "degreeValue": "BSc",
-      "degreeLabel": "Computer Eng. (2027)",
-      "locationValue": "Lisbon",
-      "locationLabel": "Based in"
+    "headline": "About Me",
+    "imageAlt": "Illustration of a seated cat in a purple vector style",
+    "title": "Frontend Developer · Software Engineer · Full Stack Developer",
+    "intro": "Developer with 2+ years of practical frontend experience using React, React Native, and TypeScript on client and research projects. Experienced integrating authenticated REST APIs, shipping reusable modules, and delivering in Agile teams with Git and Azure DevOps. BSc in Computer Engineering at Polytechnic University of Santarém (expected 2027). Full Stack Web Bootcamp at Labenu (2023).",
+    "traits": {
+      "problemSolver": "Problem solver",
+      "detailOriented": "Detail oriented",
+      "cleanCode": "Clean code advocate",
+      "alwaysLearning": "Always learning",
+      "teamPlayer": "Team player",
+      "curiousMind": "Curious mind"
     },
     "skills": {
-      "solid": "Core Skills",
-      "studying": "Deepening",
-      "learningBadge": "Learning"
-    },
-    "studyCard": {
-      "title": "Continuous learning",
-      "description": "Deepening back-end skills with Node.js (APIs, persistence, and best practices). BSc in Computer Engineering at IPS (2027), Labenu Full Stack Bootcamp (2023), and Front-End Immersion with AI (Alura, 2026)."
+      "solid": "Core Skills"
     }
   },
   "Projects": {
     "subtitle": "Projects",
     "title": "Featured Work",
-    "description": "From full-stack web (Next.js + Node.js) to mobile and AI — projects centered on APIs, TypeScript, and end-to-end delivery.",
+    "titleLead": "Featured",
+    "titleRest": "Work",
+    "description": "Academic and professional projects from my CV—mobile, computer vision, and this portfolio site.",
     "viewMore": "View GitHub",
     "liveDemo": "Live demo",
     "github": "GitHub",
@@ -74,43 +57,43 @@
       "description": "Personal site built with Next.js 16, i18n, dark/light theme, and a contact form with Zod validation and email delivery via Node.js Server Actions and Resend."
     },
     "project1": {
-      "title": "SerPlena — Women's Health Diary",
-      "description": "React Native mobile app to track, record, and visualize daily physical and emotional well-being metrics, built at Teamsoft Technology and Systems."
+      "title": "SerPlena — Women's Well-being",
+      "description": "Client React Native app for daily tracking of physical and emotional well-being, with charts of the most logged emotions over time (Teamsoft)."
     },
     "project2": {
       "title": "Facial Expression Recognition (CNN)",
-      "description": "Computer Vision pipeline using the FER-2013 dataset, image preprocessing, and a Convolutional Neural Network in Python (TensorFlow/Keras) to classify emotions in facial images."
+      "description": "Academic project (UPS, 2026): computer vision pipeline with FER-2013 and a Python CNN (TensorFlow/Keras) for 7 emotions—62% overall accuracy; best on happy (83% precision, F1 0.84)."
     },
     "project3": {
-      "title": "Virtual Showroom — Industrial Inventory",
-      "description": "Mobile features for industrial inventory digitization, including an interactive virtual showroom with multi-platform deployment (Android and iOS), during an undergraduate research fellowship at IPS."
+      "title": "Virtual Showroom — Industrial Stock",
+      "description": "React Native screens for industrial stock digitization with a virtual showroom (Android and iOS), Figma prototypes, and design-to-code handoff (UPS research grant, 2025)."
     }
   },
   "Experience": {
     "subtitle": "Experience",
-    "title": "Work History",
-    "description": "From UI components to production features with API integration — expanding into full-stack delivery with Node.js.",
+    "title": "Professional Experience",
+    "description": "React, React Native, and TypeScript delivery with REST API integration in Agile teams.",
     "currentRoleBadge": "Current Role",
     "item1": {
-      "role": "Undergraduate Research Fellow",
+      "role": "Undergraduate Research Grant — Scientific Initiation",
       "company": "Polytechnic University of Santarém",
       "type": "Research",
       "period": "Apr 2025 — Sep 2025 · Santarém, Portugal",
-      "description": "Collaborated on mobile features for industrial inventory digitization, delivering an interactive virtual showroom with Android and iOS deployment. Designed Figma layouts and prototypes focused on usability and UX."
+      "description": "Built React Native screens for a cross-platform mobile app digitizing industrial stock, including a virtual showroom. Designed Figma prototypes and implemented screens, bridging design and code."
     },
     "item2": {
-      "role": "Junior Front-End Developer",
-      "company": "Teamsoft Technology and Systems",
-      "type": "Remote · Full-time",
+      "role": "Junior Frontend Developer",
+      "company": "Teamsoft Tecnologia e Sistemas",
+      "type": "Full-time",
       "period": "Jul 2023 — Apr 2025",
-      "description": "Engineered core features for an audiovisual asset and warehouse management platform in a digital commerce ecosystem, integrated with REST APIs and back-end business rules. Built a reporting module with dynamic filters. Developed SerPlena in React Native. Maintained legacy Angular 7. Agile, Git, and Azure DevOps."
+      "description": "Reusable React/TypeScript reporting module (MRO project) with dynamic filters and authenticated REST APIs. Full SerPlena app in React Native. New screens and fixes on an e-commerce-style audiovisual stock system. Legacy maintenance on Angular 7."
     },
     "item3": {
-      "role": "Front-End Development Intern",
-      "company": "KMM by nstech",
+      "role": "Frontend Development Intern",
+      "company": "KMM by NSTech",
       "type": "Internship",
       "period": "Sep 2022 — Dec 2022 · Brazil",
-      "description": "Supported the front-end team building UI components following modern JavaScript, HTML, and CSS best practices. Participated in Agile/Scrum ceremonies and release cycles."
+      "description": "Frontend components in JavaScript, HTML, and CSS. Participated in Agile ceremonies and team release cycles."
     }
   },
   "Contact": {
@@ -120,7 +103,7 @@
     "headlineAccent": "together.",
     "formTitle": "Send a message",
     "copyright": "All rights reserved.",
-    "description": "I'm open to full-stack roles (Node.js + React), front-end, freelance projects, and collaborations.",
+    "description": "Open to frontend, software engineering, and full-stack opportunities, freelance work, and collaborations.",
     "email": "Email",
     "location": "Location",
     "e-mail": "adrianegonaves@gmail.com",

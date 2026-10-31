@@ -1,28 +1,51 @@
-"use server"
+"use server";
 
-import { Resend } from "resend"
+import { Resend } from "resend";
+import { parseContactForm } from "@/lib/validations/contact";
 
-export async function sendEmailAction(formData: FormData) {
-  // Inicialize o Resend AQUI dentro da função
-  const resend = new Resend(process.env.RESEND_API_KEY)
+export type SendEmailResult =
+  | { success: true }
+  | {
+      success: false;
+      error: "validation" | "config" | "send";
+      fieldErrors?: Record<string, string[]>;
+    };
 
-  const firstName = formData.get("firstName") as string
-  const lastName = formData.get("lastName") as string
-  const email = formData.get("email") as string
-  const subject = formData.get("subject") as string
-  const message = formData.get("message") as string
+export async function sendEmailAction(formData: FormData): Promise<SendEmailResult> {
+  const parsed = parseContactForm(formData);
+
+  if (!parsed.success) {
+    return {
+      success: false,
+      error: "validation",
+      fieldErrors: parsed.error.flatten().fieldErrors as Record<string, string[]>,
+    };
+  }
+
+  const apiKey = process.env.RESEND_API_KEY;
+  if (!apiKey) {
+    return { success: false, error: "config" };
+  }
+
+  const { firstName, lastName, email, subject, message } = parsed.data;
+  const resend = new Resend(apiKey);
+  const fullName = [firstName, lastName].filter(Boolean).join(" ");
 
   try {
-    const data = await resend.emails.send({
-      from: "onboarding@resend.dev",
-      to: "adrianegonaves@gmail.com",
+    const { error } = await resend.emails.send({
+      from: process.env.RESEND_FROM_EMAIL ?? "onboarding@resend.dev",
+      to: process.env.CONTACT_TO_EMAIL ?? "adrianegonaves@gmail.com",
       subject: `[Contato Portfólio] ${subject}`,
       replyTo: email,
-      text: `Nome: ${firstName} ${lastName}\nE-mail: ${email}\n\nMensagem:\n${message}`,
-    })
+      text: `Nome: ${fullName}\nE-mail: ${email}\n\nMensagem:\n${message}`,
+    });
 
-    return { success: true, data }
-  } catch (error) {
-    return { success: false, error: "Erro ao enviar e-mail." }
+    if (error) {
+      return { success: false, error: "send" };
+    }
+
+    return { success: true };
+  } catch {
+    return { success: false, error: "send" };
   }
 }
